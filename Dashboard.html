@@ -1,25 +1,34 @@
+<!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basit Dashboard</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="Dashboardstyle.css
+    ">
 </head>
 <body>
- <div class="sidebar">
+  <!--sidebar sol menü-->
+  <div class="sidebar">
     <h2>Panel</h2>
-    <ul>
-      <li>📊 Dashboard</li>
-      <li>👤 Kullanıcılar</li>
-      <li>⚙️ Ayarlar</li>
-      <li>🚪 Çıkış</li>
-    </ul>
+    <ul class="menu">
+      <li><a href="dashboard.html">📊 Anasayfa</a></li>
+      <li><a href="kullanicilar.html">👤 Kullanıcılar</a></li>
+      <li><a href="ayarlar.html">⚙️ Ayarlar</a></li>
+      <li><a href="raporlar.html">📑 Raporlar</a></li>
+      <li><a href="index.html">📈 Kontrol Paneli</a></li >
+                <li><a href="login.html">🚪 Çıkış</a></li>
+      </ul>
   </div>
 
+  <!-- main ana içerik alanı-->
   <div class="main">
+    <!--navbar üst başlık çubuğu-->
     <div class="navbar">
-      <h1>Kontrol Paneli</h1>
+      <h1>Anasayfa</h1>
     </div>
 
+    <!--cards içerik kutuları-->
     <div class="cards">
       <div class="card">👥 Kullanıcılar<br><span>120</span></div>
       <div class="card">💼 Projeler<br><span>14</span></div>
